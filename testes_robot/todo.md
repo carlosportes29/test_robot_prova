@@ -14,7 +14,7 @@
   - [x] Escrever boas práticas de testes automatizados
   - [x] Criar arquivo README.md com instruções e informações do projeto
 - [x] Configuração do repositório GitHub e deploy
-- [ ] Entrega dos resultados ao usuário
-  - [ ] Compartilhar o link do repositório GitHub
+- [x] Entrega dos resultados ao usuário
+  - [x] Compartilhar o link do repositório GitHub
   - [x ] Enviar a documentação das boas práticas
 
