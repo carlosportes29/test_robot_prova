@@ -15,11 +15,9 @@ Para executar estes testes, você precisará ter instalado:
 1.  Clone este repositório:
     ```bash
     git clone https://github.com/carlosportes29/test_robot_prova.git
-    https://github.com/carlosportes29/test_robot_prova
-    cd serverest-robot-tests
+    cd testes_robot
     ```
 2.  Instale as dependências do Robot Framework e suas bibliotecas:
-    ```bash
    pip install robotframework
    pip install robotframework-seleniumlibrary
    pip install robotframework-requests
@@ -27,7 +25,6 @@ Para executar estes testes, você precisará ter instalado:
 
 ## Estrutura do Projeto
 
-```
 robot_tests/
 ├── frontend/             # Testes E2E para o frontend
 │   └── login.robot
