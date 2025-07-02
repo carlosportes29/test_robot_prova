@@ -7,7 +7,7 @@ Este repositório contém uma suíte de testes automatizados desenvolvida com Ro
 
 Para executar estes testes, você precisará ter instalado:
 
-*   Python 3.x
+*   Python 3.x superior
 *   pip (gerenciador de pacotes do Python)
 
 ## Instalação
@@ -18,10 +18,10 @@ Para executar estes testes, você precisará ter instalado:
     cd testes_robot
     ```
 2.  Instale as dependências do Robot Framework e suas bibliotecas:
-   pip install robotframework
-   pip install robotframework-seleniumlibrary
-   pip install robotframework-requests
-    ```
+   -pip install robotframework
+   -pip install robotframework-seleniumlibrary
+   -pip install robotframework-requests
+    
 
 ## Estrutura do Projeto
 
@@ -38,7 +38,6 @@ robot_tests/
 ```
 
 Para executar todos os testes, navegue até o diretório `robot_tests` e execute o seguinte comando:
-
 robot frontend/login.robot
 robot api/users_api_tests.robot
 
